@@ -1,0 +1,9 @@
+CREATE TABLE alerts (
+  id INTEGER PRIMARY KEY,
+  chat_id TEXT UNIQUE NOT NULL
+);
+
+CREATE TABLE bans (
+  id INTEGER PRIMARY KEY,
+  user_id TEXT UNIQUE NOT NULL
+);

@@ -1,0 +1,12 @@
+[Unit]
+Description=WireWizard backend service
+After=network.target
+
+[Service]
+User=root
+ExecStart=/usr/local/bin/wirewizard-backend
+NoNewPrivileges=true
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

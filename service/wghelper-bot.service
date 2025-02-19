@@ -1,0 +1,13 @@
+[Unit]
+Description=WireWizard telegram bot service
+After=network.target
+
+[Service]
+User=root
+ExecStart=/root/wirewizard/telegram/venv/bin/python3 /root/wirewizard/telegram/bot.py
+WorkingDirectory=/root/wirewizard/telegram/
+NoNewPrivileges=true
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

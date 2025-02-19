@@ -1,0 +1,7 @@
+FROM postgres:latest
+
+LABEL maintainer="andreyisback@yandex.ru"
+
+COPY sql/init.sql /docker-entrypoint-initdb.d/
+
+USER postgres
