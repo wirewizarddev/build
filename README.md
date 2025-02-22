@@ -1,7 +1,11 @@
 <div align="center">
 
-  <picture><img alt="logo" src="/docs/wirewizard.png"></picture>
-  <h2>WireWizard: Assistant in the ecosystem management [WireGuard](https://github.com/WireGuard).</h2>
+  <picture><img alt="logo" src="/docs/wirewizard.png" width="35%" height="35%"></picture>
+  <h2>
+
+  WireWizard: Assistant in the ecosystem management [WireGuard](https://github.com/WireGuard).
+  
+  </h2>
 
 </div>
 
