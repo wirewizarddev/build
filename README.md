@@ -9,6 +9,20 @@
 
 </div>
 
+### Build minimal
+```bash
+git clone https://github.com/wirewizarddev/build.git && cd build
+# If you are not running as root, use sudo.
+# So far only works with the apt package manager.
+./bin/build_minimal.sh
+ww --help
+```
+
+### Build classic
+```bash
+# Will be added soon.
+```
+
 ## FAQ
 * Reserved ports:
   - **5432** for postgres.
