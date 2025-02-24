@@ -1,6 +1,6 @@
 <div align="center">
 
-  <picture><img alt="logo" src="/docs/wirewizard.png" width="35%" height="35%"></picture>
+  <picture><img alt="logo" src="/docs/wirewizard.png" width="20%" height="20%"></picture>
   <h2>
 
   WireWizard: Assistant in the ecosystem management [WireGuard](https://github.com/WireGuard).
@@ -8,8 +8,6 @@
   </h2>
 
 </div>
-
----
 
 ## FAQ
 * Reserved ports:
